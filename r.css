@@ -1,0 +1,102 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: #f3f3f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+    font-family: cursive;
+}
+.container{
+    background-color: #f3f3f5;
+    padding: 0;
+    margin-top: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+   width: 300px;
+   overflow:hidden;
+  
+}
+.header{
+    text-align: center;
+    color: aqua;
+    background-color: black;
+    padding: 30px 20px;
+}
+.header h4{
+   margin-top: -10px;
+}
+.filter{
+    height: 37px;
+    width: 100%;
+    border: 0;
+    border-radius:10px ;
+    color: #000;
+    margin-top: 10px;
+    outline: none;
+    padding-left: 10px;
+    font-size: 17px;
+}
+ul{
+    list-style-type:none;
+    margin: 0;
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+li{
+    display: flex;
+     padding: 10px 20px;
+    flex-direction: row;
+    align-items: center;
+    text-align:left;
+    cursor: pointer;
+    
+}
+li:hover{
+    background-color: #dbdbdf;
+}
+li img{
+    border-radius: 50%;
+    height: 60px;
+
+
+}
+li h4{
+  margin-bottom:7px ;  
+}
+li div{
+    margin-left: 5px;
+}
+ul li:not(:last-of-type){
+    border-bottom: 2px solid #eee;
+}
+ul li.hide{
+display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
